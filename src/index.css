@@ -1,3 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "CascadiaCode";
+  src: url('../src/Fonts/CascadiaCode.ttf');
+}
+
+/* * {
+  background: rgba(14, 20, 34, 1);
+} */
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +18,37 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: rgba(14, 20, 34, 1);
+  background-attachment: fixed;
+  background-image: url(./Images/bg3.jpg);
+  background-size: 86.125rem;
+  color: #fff;
+  color: var(--color-white);
+  font-family: Poppins, sans-serif;
+  line-height: 1.7;
 }
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(14, 20, 34, 1);
+  margin-block: .5em;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(72, 89, 255);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(72, 89, 255, 0.5);
+  border-radius: 10px;
 }

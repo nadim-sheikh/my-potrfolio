@@ -1,0 +1,21 @@
+.custom-font{
+    font-family: "CascadiaCode";
+}
+.custom-animation{
+    animation-name: down;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes down {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(25px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}

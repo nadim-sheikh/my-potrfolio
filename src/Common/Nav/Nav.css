@@ -1,0 +1,7 @@
+.custom-css{
+    font-family: "CascadiaCode";
+}
+.custom-blur{
+    backdrop-filter: blur(10px);
+    background: rgba(72, 89, 2550,0.1);
+}

@@ -1,0 +1,4 @@
+.custom-body{
+    background-attachment: fixed;
+    backdrop-filter: blur(100px);
+}
